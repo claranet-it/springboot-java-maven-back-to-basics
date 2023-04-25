@@ -12,15 +12,11 @@
 	<artifactId>sb-back-to-basics</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sb-back-to-basics</name>
-	<description>SpringBoot - Java Maven - Back-to-Basics</description>
+	<description>Spring Boot - Java Maven - Back-to-Basics</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jdbc</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -41,6 +37,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
